@@ -1,0 +1,29 @@
+@import "tailwindcss";
+/* @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap"); */
+
+@theme {
+  --color-primary: #000000;
+  --color-secondary: #f0eff2;
+  --color-tertiary: #ffffff;
+
+  /* --font-tech: "Rajdhani", sans-serif; */
+}
+
+/* Carousel animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
+
+/* Pause on hover */
+.animate-scroll:hover {
+  animation-play-state: paused;
+}
