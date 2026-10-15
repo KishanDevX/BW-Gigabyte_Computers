@@ -67,11 +67,16 @@ const Home = () => {
               </span>
             </h1>
             <p className=" text-gray-300 text-3xl">{data.tagline}</p>
-            <button className="mt-10 text-tertiary self-start bg-secondary/20 px-4 py-1 rounded-md">
+            <div className="cta-btns flex gap-4">
+              <button className="mt-10 text-tertiary self-start bg-secondary/20 px-4 py-1 rounded-md">
               <i class="ri-phone-line mr-1"></i>
-              {/* Contact Now */}
-              Call now for quick support
+              Quick support
             </button>
+            <button className="mt-10 text-tertiary self-start bg-secondary/20 px-4 py-1 rounded-md">
+              <i class="ri-map-pin-line mr-1"></i>
+              Location
+            </button>
+            </div>
           </div>
 
           <div className="right text-gray-200 mr-10 flex items-center">

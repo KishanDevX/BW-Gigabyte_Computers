@@ -3,6 +3,7 @@
 A modern and responsive web application for **Gigabyte Computers**, a local computer repair and electronics service shop.  
 Built using **React + Tailwind CSS + Vite** for fast performance, clean design, and maintainable code.
 
+[LIVE PREVIEW](https://bw-gigabyte-computers.vercel.app/)
 ---
 
 ## 🚀 Project Overview
